@@ -1,4 +1,4 @@
-# Roche_Assessment
+# Todo_List_Application (App Developed with Name Roche_Assessment)
 ## Jetpack Compose Todo List Application with Firebase Authentication and Room Database
 This is a todo list application built using Jetpack Compose, Firebase Authentication, and Room Database. The application allows users to create tasks and manage them, and the tasks are stored in a local database using Room Database. Users can sign in using Firebase Authentication and their tasks persist even if the application is force-closed.
 
