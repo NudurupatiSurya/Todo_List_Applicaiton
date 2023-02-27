@@ -12,8 +12,7 @@ This is a todo list application built using Jetpack Compose, Firebase Authentica
 - Unless the user explicitly clicks on the sign-out button, the application will not sign out the user.
 
 ## Video
-[![Watch the video](https://img.youtube.com/vi/kzSt99dsAismaxresdefault.jpg)](https://youtu.be/kzSt99dsAis)
-[https://www.youtube.com](https://youtu.be/kzSt99dsAis)
+[![Watch the video](https://img.youtube.com/vi/kzSt99dsAis/maxresdefault.jpg)](https://youtu.be/kzSt99dsAis)
 
 ## Code Structure
 The application is divided into the following components:
