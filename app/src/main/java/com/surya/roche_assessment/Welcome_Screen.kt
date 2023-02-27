@@ -33,8 +33,7 @@ class Welcome_Screen : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colors.background
                 ) {
-                    val username = intent.getStringExtra("Username").toString()
-                    Top(username)
+                    Top()
                 }
             }
         }
@@ -42,11 +41,11 @@ class Welcome_Screen : ComponentActivity() {
 
     fun signOut() {
         AuthUI.getInstance().signOut(this)
-        this.startActivity(Intent(this, MainActivity::class.java))
+        this.startActivity(Intent(this, Login_Activity::class.java))
     }
 
     @Composable
-    fun Top(name: String, viewModel: TaskViewModel = androidx.lifecycle.viewmodel.compose.viewModel()) {
+    fun Top(viewModel: TaskViewModel = androidx.lifecycle.viewmodel.compose.viewModel()) {
         var text by remember { mutableStateOf("") }
         Column(Modifier.padding(20.dp), horizontalAlignment = Alignment.Start) {
             TextField(
@@ -67,7 +66,8 @@ class Welcome_Screen : ComponentActivity() {
                         contentDescription = "Add Task"
                     )
                 },
-                onClick = {viewModel.addTask(text)},
+                onClick = {viewModel.addTask(text)
+                          text = ""},
                 //onClick = { add_Task(name, text) },
                 modifier = Modifier.padding(vertical = 25.dp, horizontal = 10.dp)
             )
