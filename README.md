@@ -18,8 +18,8 @@ https://www.youtube.com
 The application is divided into the following components:
 
 - MainActivity: The main activity of the application that launches the Welcome Screen if the user didn't sign out in the previous session, or the Login Activity if the user is not signed in.
-- Login Activity: Contains Firebase Authentication. When the user clicks on the sign-in button, they can sign in or register using their Gmail account or by manually entering their email and password.
-- Welcome Screen: Displays the task list and allows the user to create, edit, or delete tasks.
-- TaskItem: An entity class that defines the structure of a task item.
-- TaskDAO: A DAO (Data Access Object) interface that provides methods for performing CRUD (Create, Read, Update, Delete) operations on the TaskItem table in the Room Database.
+- Login Activity: Contains Firebase Authentication. When the user clicks on the sign-in button, they can sign in by google sign in or register using by manually entering their email and password or sign in by manually entering those credentials.
+- Welcome Screen: Displays the task list and allows the user to create, or delete tasks.
+- TaskItem: An entity class that defines the structure of the TaskItemTable.
+- TaskDAO: A DAO (Data Access Object) interface that provides methods for performing CRUD (Create, Read, Update, Delete) operations on the TaskItem table in the Room Database. I have also written two custom methods with custom queries getAll() which returns LiveData<List<TaskItem>> and updateTaskItemChekced() which updates the checkbox state of each task in the room database whenever there is a change.
 - TaskDatabase: A Room Database that stores the TaskItem objects.
