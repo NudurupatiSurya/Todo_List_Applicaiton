@@ -12,14 +12,14 @@ This is a todo list application built using Jetpack Compose, Firebase Authentica
 - Unless the user explicitly clicks on the sign-out button, the application will not sign out the user.
 
 ## Video
-[![Watch the video](https://img.youtube.com/vi/C76h-kGapkQ/maxresdefault.jpg)](https://youtu.be/C76h-kGapkQ)
-https://www.youtube.com
+[![Watch the video](https://img.youtube.com/vi/kzSt99dsAismaxresdefault.jpg)](https://youtu.be/kzSt99dsAis)
+[https://www.youtube.com](https://youtu.be/kzSt99dsAis)
 
 ## Code Structure
 The application is divided into the following components:
 
-- MainActivity: The main activity of the application that launches the Welcome Screen if the user didn't sign out in the previous session, or the Login Activity if the user is not signed in.
-- Login Activity: Contains Firebase Authentication. When the user clicks on the sign-in button, they can sign in by google sign in or register using by manually entering their email and password or sign in by manually entering those credentials.
+- MainActivity: The main activity of the application checks the user's authentication state and launches Welcome Screen if the user didn't sign out or launches Login Activity if the user clicks on sign out before leaving the app in the previous session.
+- Login Activity: Contains Firebase Authentication. User can sign in with Email address and password or with their Google account.
 - Welcome Screen: Displays the task list and allows the user to create, or delete tasks.
 - TaskItem: An entity class that defines the structure of the TaskItemTable.
 - TaskDAO: A DAO (Data Access Object) interface that provides methods for performing CRUD (Create, Read, Update, Delete) operations on the TaskItem table in the Room Database. I have also written two custom methods with custom queries getAll() which returns LiveData<List<TaskItem>> and updateTaskItemChekced() which updates the checkbox state of each task in the room database whenever there is a change.
