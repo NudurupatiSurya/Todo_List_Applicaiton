@@ -1,33 +1,41 @@
 {
   "project_info": {
-    "project_number": "415763345406",
-    "project_id": "roche-assessment",
-    "storage_bucket": "roche-assessment.appspot.com"
+    "project_number": "542369745870",
+    "project_id": "todo-list-a58a7",
+    "storage_bucket": "todo-list-a58a7.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:415763345406:android:466f635e3f5b51afbe1aaf",
+        "mobilesdk_app_id": "1:542369745870:android:6491563071135106c8799f",
         "android_client_info": {
-          "package_name": "com.surya.roche_assessment"
+          "package_name": "com.surya.todo_list_assessment_"
         }
       },
       "oauth_client": [
         {
-          "client_id": "415763345406-n4qu4cgtnl604ufv9vg2q7462f6b1dop.apps.googleusercontent.com",
+          "client_id": "542369745870-0oehqqnaou632egp4is661kecnjbuc3r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.surya.todo_list_assessment_",
+            "certificate_hash": "ce67e3a24dac11e254c5090fc6d207cfcb209ce5"
+          }
+        },
+        {
+          "client_id": "542369745870-q8kmo8iauit4b3peo9m741f8fejj25ts.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAlN3jxUp7sHGY1Y8RVxVoG73hX1MAllVs"
+          "current_key": "AIzaSyAIvv-o94tT5z6oFe1f3UZX4g5peHHHVds"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "415763345406-n4qu4cgtnl604ufv9vg2q7462f6b1dop.apps.googleusercontent.com",
+              "client_id": "542369745870-e63lgq10p5l137gm75gn426fuovfncoc.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

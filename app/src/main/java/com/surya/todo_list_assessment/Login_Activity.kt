@@ -1,4 +1,4 @@
-package com.surya.roche_assessment
+package com.surya.todo_list_assessment
 
 import android.app.Activity
 import android.content.Intent
@@ -16,11 +16,10 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
 import com.firebase.ui.auth.AuthUI
 import com.firebase.ui.auth.IdpResponse
 import com.google.firebase.auth.FirebaseAuth
-import com.surya.roche_assessment.ui.theme.Roche_AssessmentTheme
+import com.surya.todo_list_assessment.ui.theme.todo_list_AssessmentTheme
 
 class Login_Activity : ComponentActivity() {
     val TAG = "Login_Activity"
@@ -28,7 +27,7 @@ class Login_Activity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            Roche_AssessmentTheme {
+            todo_list_AssessmentTheme {
                 // A surface container using the 'background' color from the theme
                 Surface(
                     modifier = Modifier.fillMaxSize(),

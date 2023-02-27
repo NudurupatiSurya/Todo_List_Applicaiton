@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.surya.roche_assessment">
+    package="todo_list_assessment">
 
     <application
         android:allowBackup="true"
@@ -11,23 +11,23 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Roche_Assessment"
+        android:theme="@style/Theme.todo_list_Assessment"
         tools:targetApi="31">
         <activity
-            android:name=".Login_Activity"
+            android:name="com.surya.todo_list_assessment.Login_Activity"
             android:exported="false"
             android:label="@string/title_activity_login"
-            android:theme="@style/Theme.Roche_Assessment" />
+            android:theme="@style/Theme.todo_list_Assessment" />
         <activity
-            android:name=".Welcome_Screen"
+            android:name="com.surya.todo_list_assessment.Welcome_Screen"
             android:exported="false"
             android:label="@string/title_activity_welcome_screen"
-            android:theme="@style/Theme.Roche_Assessment" />
+            android:theme="@style/Theme.todo_list_Assessment" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.surya.todo_list_assessment.MainActivity"
             android:exported="true"
             android:label="@string/app_name"
-            android:theme="@style/Theme.Roche_Assessment">
+            android:theme="@style/Theme.todo_list_Assessment">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

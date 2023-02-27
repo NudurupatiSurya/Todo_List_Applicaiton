@@ -1,9 +1,8 @@
-package com.surya.roche_assessment
+package com.surya.todo_list_assessment
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import com.firebase.ui.auth.AuthUI
 import com.google.firebase.auth.FirebaseAuth
 
 @Entity(tableName = "TaskItemTable")

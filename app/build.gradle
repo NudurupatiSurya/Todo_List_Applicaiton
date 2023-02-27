@@ -10,7 +10,7 @@ android {
     compileSdk 31
 
     defaultConfig {
-        applicationId "com.surya.roche_assessment"
+        applicationId "com.surya.todo_list_assessment_"
         minSdk 21
         targetSdk 30
         versionCode 1

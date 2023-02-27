@@ -1,4 +1,4 @@
-package com.surya.roche_assessment
+package com.surya.todo_list_assessment
 
 import android.content.Intent
 import android.os.Bundle
@@ -17,9 +17,8 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.firebase.ui.auth.AuthUI
-import com.firebase.ui.auth.FirebaseAuthUIActivityResultContract
 import com.google.firebase.auth.FirebaseAuth
-import com.surya.roche_assessment.ui.theme.Roche_AssessmentTheme
+import com.surya.todo_list_assessment.ui.theme.todo_list_AssessmentTheme
 
 class Welcome_Screen : ComponentActivity() {
 
@@ -27,7 +26,7 @@ class Welcome_Screen : ComponentActivity() {
         super.onCreate(savedInstanceState)
 
         setContent {
-            Roche_AssessmentTheme {
+            todo_list_AssessmentTheme {
                 // A surface container using the 'background' color from the theme
                 Surface(
                     modifier = Modifier.fillMaxSize(),

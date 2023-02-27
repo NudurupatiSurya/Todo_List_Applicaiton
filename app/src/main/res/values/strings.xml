@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Roche_Assessment</string>
+    <string name="app_name">Todo_List_Assessment</string>
     <string name="title_activity_welcome_screen">Welcome_Screen</string>
     <string name="title_activity_login">Login_Activity</string>
 </resources>

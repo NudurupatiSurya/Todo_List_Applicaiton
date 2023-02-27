@@ -1,4 +1,4 @@
-package com.surya.roche_assessment.ui.theme
+package com.surya.todo_list_assessment.ui.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material.MaterialTheme
@@ -28,7 +28,7 @@ private val LightColorPalette = lightColors(
 )
 
 @Composable
-fun Roche_AssessmentTheme(
+fun todo_list_AssessmentTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
     content: @Composable () -> Unit
 ) {

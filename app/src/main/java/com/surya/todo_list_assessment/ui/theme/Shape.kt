@@ -1,4 +1,4 @@
-package com.surya.roche_assessment.ui.theme
+package com.surya.todo_list_assessment.ui.theme
 
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Shapes
